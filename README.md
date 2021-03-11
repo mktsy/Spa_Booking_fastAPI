@@ -8,7 +8,8 @@ for window
  - $pip install -r requirements.txt
 
 # Warning
-Don't forget to create file .env in the base directory
+1) Don't forget to create file .env in the base directory
+2) in file .env you can put MONGO_DETAILS=<you MongoDB Atlas URL>
 
 # Step by Step:
 
@@ -34,50 +35,51 @@ Don't forget to create file .env in the base directory
 # MongoDB:
 
 8. In this section, we'll wire up MongoDB and configure our API to communicate with it.
+9. You can use MongoDB Atlas by going to the file in folder database and delete comment in line 6 and comment line 7 and follow Warning: 2)
 
 # Motor Setup:
 
-9. Next, we'll configure Motor, an asynchronous MongoDB driver, to interact with the database.
-10. Back in the server folder, we add the database connection info to "server/database/" and add the database. For ex. "user_database.py"
+10. Next, we'll configure Motor, an asynchronous MongoDB driver, to interact with the database.
+11. Back in the server folder, we add the database connection info to "server/database/" and add the database. For ex. "user_database.py"
 
 # Database CRUD Operations
 
-11. Start by importing the ObjectId method from the bson package at the top of the "user_database.py" file.
-12. Next, add each of the following functions for the CRUD operations, you'll see in the file "user_database.py, spa_database.py, spa_booking_database.py"
+12. Start by importing the ObjectId method from the bson package at the top of the "user_database.py" file.
+13. Next, add each of the following functions for the CRUD operations, you'll see in the file "user_database.py, spa_database.py, spa_booking_database.py"
 
 # CRUD Routes
 
-13. In this section, we'll add the routes to complement the database operations in the database file. You'll see in the "routes" folder ex. "user_route.py"
-14. Next, wire up the user_route in server/app.py.
+14. In this section, we'll add the routes to complement the database operations in the database file. You'll see in the "routes" folder ex. "user_route.py"
+15. Next, wire up the user_route in server/app.py.
 
 # Create
 
-15. Back in the routes file, add the following handler for creating a new user.
+16. Back in the routes file, add the following handler for creating a new user.
 
 # Read
 
-16. Moving right along, let's add routes to retrieve all users, spas and a single user, spa.
+17. Moving right along, let's add routes to retrieve all users, spas and a single user, spa.
 
 # Update
 
-17. Next, write the individual route for updating the user data.
+18. Next, write the individual route for updating the user data.
 
 # Delete
 
-18. Finally, add the delete route.
+19. Finally, add the delete route.
 
 # JWT Authentication
 
 - JWT Handler
-19. In this section, we'll create a JWT token handler and a class to handle bearer tokens. You'll see in the "server/auth" folder.
-20. The JWT handler will be responsible for signing, encoding, decoding, and returning JWT tokens. In the "/serverauth" folder, in a file called "auth_handler.py"
+20. In this section, we'll create a JWT token handler and a class to handle bearer tokens. You'll see in the "server/auth" folder.
+21. The JWT handler will be responsible for signing, encoding, decoding, and returning JWT tokens. In the "/serverauth" folder, in a file called "auth_handler.py"
 - JWT Secret and Algorithm
-21. Next, create an environment file called .env in the base directory
-22. In .env file
+22. Next, create an environment file called .env in the base directory
+23. In .env file
     - secret=please_update_me_please
     - algorithm=HS256
-23. Back in "auth_handler.py", add the function for signing the JWT string.
+24. Back in "auth_handler.py", add the function for signing the JWT string.
                                                                           
 # User Registration and Login
 
-24. Moving along, let's wire up the routes, schemas, and helpers for handling user registration and login.
+25. Moving along, let's wire up the routes, schemas, and helpers for handling user registration and login.
