@@ -1,0 +1,9 @@
+fastapi==0.63.0
+uvicorn==0.13.4
+pydantic[email]
+motor==2.2.0
+pytest-asyncio==0.14.0
+pyJWT==1.7.1 
+python-decouple==3.3
+passlib[bcrypt]==1.7.2
+python-jose[cryptography]
