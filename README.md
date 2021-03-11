@@ -4,7 +4,7 @@ Botio:Backend internship test
 # Initial Setup
 for window
  Shell: 
- >python -m venv env
+ >python -m venv env \n
  >env\Scripts\activate
  >pip install -r requirements.txt
 
