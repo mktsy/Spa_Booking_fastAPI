@@ -7,6 +7,9 @@ for window
  - $env\Scripts\activate
  - $pip install -r requirements.txt
 
+# Warning
+Don't forget to create file .env in the base directory
+
 # Step by Step:
 
 1. In the "main.py" file, define an entry point for running the application
@@ -64,6 +67,7 @@ for window
 18. Finally, add the delete route.
 
 # JWT Authentication
+
 - JWT Handler
 19. In this section, we'll create a JWT token handler and a class to handle bearer tokens. You'll see in the "server/auth" folder.
 20. The JWT handler will be responsible for signing, encoding, decoding, and returning JWT tokens. In the "/serverauth" folder, in a file called "auth_handler.py"
@@ -74,3 +78,6 @@ for window
     - algorithm=HS256
 23. Back in "auth_handler.py", add the function for signing the JWT string.
                                                                           
+# User Registration and Login
+
+24. Moving along, let's wire up the routes, schemas, and helpers for handling user registration and login.
