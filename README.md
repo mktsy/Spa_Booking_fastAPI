@@ -12,7 +12,7 @@ for window
  - $pip install -r requirements.txt
 
 # Warning
-1) Don't forget to create file .env in the base directory
+1) Don't forget to create file .env in the base directory if you not clone
 2) in file .env you can put MONGO_DETAILS=(your MongoDB Atlas URL for ex: mongodb+srv://mktsy:password@cluster0.hafe7.mongodb.net/spas?gasfgwergeis=true&w=majority)
 
 # Step by Step:
