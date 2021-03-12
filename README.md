@@ -13,7 +13,7 @@ for window
 
 # Warning
 1) Don't forget to create file .env in the base directory
-2) in file .env you can put MONGO_DETAILS= <your MongoDB Atlas URL>
+2) in file .env you can put MONGO_DETAILS=(your MongoDB Atlas URL for ex: mongodb+srv://mktsy:password@cluster0.hafe7.mongodb.net/spas?gasfgwergeis=true&w=majority)
 
 # Step by Step:
 
