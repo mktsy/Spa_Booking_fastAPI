@@ -1,6 +1,9 @@
 # Spa_Booking_fastAPI
 Botio:Backend internship test
 
+# Requirement
+ - MongoDB or MongoDB Atlas(you need to config)
+
 # Initial Setup
 for window
  - $python -m venv env
