@@ -13,7 +13,7 @@ for window
 
 # Warning
 1) Don't forget to create file .env in the base directory
-2) in file .env you can put MONGO_DETAILS=<you MongoDB Atlas URL>
+2) in file .env you can put MONGO_DETAILS= <your MongoDB Atlas URL>
 
 # Step by Step:
 
