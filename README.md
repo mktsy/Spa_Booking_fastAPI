@@ -84,3 +84,4 @@ for window
 # User Registration and Login
 
 25. Moving along, let's wire up the routes, schemas, and helpers for handling user registration and login.
+26. You can create user and copy token for Authorize in login
